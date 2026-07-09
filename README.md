@@ -432,13 +432,16 @@ Métricas Base:
 ✅ STATUS: APROVADO - Todas as métricas >= 0.9
 ```
 
-**Evidências:**
+**Evidências (todos os links são públicos, sem necessidade de login):**
 
 - **Prompt público no LangSmith Hub:** https://smith.langchain.com/hub/jhortale/bug_to_user_story_v2 — screenshot em [`docs/hub-publico-v2.png`](docs/hub-publico-v2.png)
 - **Saída completa da avaliação aprovada:** [`docs/avaliacao-final-v2.txt`](docs/avaliacao-final-v2.txt)
 - **Avaliação do baseline v1 (comparação):** [`docs/avaliacao-baseline-v1.txt`](docs/avaliacao-baseline-v1.txt)
-- **Dataset de avaliação:** `prompt-optimization-challenge-eval` (15 exemplos) no LangSmith — screenshot em [`docs/langsmith-dataset.png`](docs/langsmith-dataset.png)
-- **Tracing:** projeto `prompt-optimization-challenge` no LangSmith (589+ traces, gerações e julgamentos) — screenshot em [`docs/langsmith-tracing.png`](docs/langsmith-tracing.png)
+- **Dataset de avaliação (15 exemplos), público:** https://smith.langchain.com/public/f32a99cc-5315-46e2-b76b-03367d45cb10/d — screenshot em [`docs/langsmith-dataset.png`](docs/langsmith-dataset.png)
+- **Tracing detalhado (3 exemplos, públicos):**
+  - Bug simples (ex1 — carrinho): https://smith.langchain.com/public/263d97aa-0556-4a34-95ed-0dc4c44ae945/r
+  - Bug médio (ex9 — cálculo de desconto): https://smith.langchain.com/public/d816d84d-3ac0-4432-a4b3-5e160b27642e/r
+  - Bug complexo (ex13 — checkout): https://smith.langchain.com/public/8daac324-dfe8-4dce-bd3d-ac93227437fd/r — screenshot em [`docs/langsmith-tracing.png`](docs/langsmith-tracing.png)
 
 ### Tabela comparativa v1 vs v2
 
